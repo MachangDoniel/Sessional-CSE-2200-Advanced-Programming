@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/ic_lhome"/>
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Profile"
+            android:icon="@drawable/ic_lprofile"/>
+        <item
+            android:id="@+id/nav_transfer"
+            android:title="Transfer"
+            android:icon="@drawable/ic_transfer"/>
+        <item
+            android:id="@+id/nav_loan"
+            android:title="Loan"
+            android:icon="@drawable/ic_loan"/>
+        <item
+            android:id="@+id/nav_payment"
+            android:title="Payment"
+            android:icon="@drawable/ic_payment"/>
+        <item
+            android:id="@+id/nav_history"
+            android:title="Transaction History"
+            android:icon="@drawable/ic_history"/>
+    </group>
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_signout"
+                    android:title="Sign Out"
+                    android:icon="@drawable/ic_signout"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

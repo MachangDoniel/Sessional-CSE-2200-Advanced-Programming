@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/ic_lhome"/>
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Profile"
+            android:icon="@drawable/ic_lprofile"/>
+        <item
+            android:id="@+id/nav_managerlist"
+            android:title="Employee List"
+            android:icon="@drawable/ic_lcustomer"/>
+        <item
+            android:id="@+id/nav_notification"
+            android:title="Add Employee"
+            android:icon="@drawable/ic_addemployee"/>
+    </group>
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_signout"
+                    android:title="Sign Out"
+                    android:icon="@drawable/ic_signout"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>
